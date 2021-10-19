@@ -1,20 +1,56 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+ .input-field input[type=text]:focus + label {
+    color: #B28700 !important;
+}
+
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #B28700 !important;
+    box-shadow: 0 1px 0 0 #B28700 !important;
+  }
+
 .sidenav {
     background-color: #606060;
+    box-shadow: none;
 }
 
 .background {
     background-color: white;
 }
 
-.sidenav-trigger {
+.menu-aberto-voador {
+    border: 1px solid red;
+    margin-left: 300px;
+}
+
+.sidenav-trigger, .sidenav-close {
     position: absolute;
-    margin-top: 20%;
-    padding: 18px 12px;
-    color: #e5e5e6 ;
-    height: 7px;
-    border: solid 78px transparent;
-    border-left: solid 40px #606060;
+    margin-top: 400px;
+    padding: 32px 18px;
+    color: #e5e5e6 !important;
+    height: 110px;
+    border: solid 20px transparent;
+    border-left: solid 28px #606060;
     border-right: none;
+    cursor: pointer;
 }
 
 .sidenav-trigger i{
@@ -22,8 +58,15 @@
     margin-top: -12px;
 }
 
+.sidenav-close i {
+    color: white;
+    margin-left: -42px;
+    margin-top: -12px;
+}
+
 .sidenav-overlay {
     opacity: 0 !important;
+    display: none !important;
 }
 
 .menu-seta {
@@ -32,8 +75,26 @@
 }
 
 .body-session {
+    margin-left: 48px;
     height: 800px; 
     width: 70%; 
     background-color: white;
-    margin-left: 368px;
+    
+}
+
+.collapsible-header {
+    line-height: 22px !important; 
+    padding: 12px 16px 12px 30px !important; 
+}
+
+.display-none{
+    display: none;
+}
+
+.menu-toponovo{
+    margin-left: 48px !important; 
+}
+
+.margin-left-aberto {
+    margin-left: 368px !important;
 }
