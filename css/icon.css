@@ -1,0 +1,228 @@
+.icon-dashboard {
+    width: 24px;
+    height: 24px;
+    background: url("../img/home.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+
+.icon-cenario {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/cenario-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-cenario:hover {
+    background: url("../img/icon/cenario-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-cenario {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-termometro {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/termometro-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-termometro:hover {
+    background: url("../img/icon/temometro-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-termometro {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-pessoa {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/pessoa-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-pessoa:hover {
+    background: url("../img/icon/pessoa-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-pessoa {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-impacto {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/impacto-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-impacto:hover {
+    background: url("../img/icon/impacto-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-impacto {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-panorama2 {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/panorama2-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-panorama2:hover {
+    background: url("../img/icon/panorama2-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-panorama2 {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-panorama3 {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/panorama3-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-panorama3:hover {
+    background: url("../img/icon/panorama3-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-panorama3 {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-panorama4 {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/panorama4-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-panorama4:hover {
+    background: url("../img/icon/panorama4-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-panorama4 {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-panorama5 {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/panorama5-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-panorama5:hover {
+    background: url("../img/icon/panorama5-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-panorama5 {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-tempo {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/tempo-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-tempo:hover {
+    background: url("../img/icon/tempo-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-tempo {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-indice {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/indice-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-indice:hover {
+    background: url("../img/icon/indice-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-indice {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.icon-previa {
+    width: 24px;
+    height: 24px;
+    background: url("../img/icon/previa-off.png");
+    background-size: 24px;
+    display: block;
+    color: #919395;
+}
+.icon-previa:hover {
+    background: url("../img/icon/previa-on.png");
+    background-size: 24px;
+    color: #B28700;
+}
+
+.item-text-previa {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+}
