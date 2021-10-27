@@ -4,6 +4,11 @@ body {
     overflow: hidden; 
 }
 
+.fixed-line {
+    position: sticky;
+    top: 0;
+}
+
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -107,33 +112,4 @@ html {
 
 #menu-voador-close{
     z-index: 1;
-}
-
-
-
-
-.divContainer {
-    width:300px;
-    float: left;
-    border: 1px solid #CCC;
-    position: relative;
-    overflow:hidden;
-}
-
-.conteudoFixo {
-    position: relative;
-    float:left;
-    background-color:#F6F6F6;
-    border:1px solid #FFF;
-    border-bottom:1px solid #CCC;
-    width:98%;
-    padding-left:2%;
-}
-
-.conteudoNormal{
-    float:left;
-    height: 200px;
-    width:100%;
-    overflow:auto;
-    position:relative;
 }
