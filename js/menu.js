@@ -1,18 +1,29 @@
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.collapsible').collapsible();
-});
-
 var fecharMenu = $('#menu-voador-open');
 var abrirMenu = $('#menu-voador-close');
 
-abrirMenu.click(function () {
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.pushpin').pushpin();
+    $('.collapsible').collapsible();
+});
+
+// abrirMenu.click(function () {
+//     fecharMenu.removeClass('display-none');
+//     abrirMenu.addClass('display-none');
+//     $('.menu-toponovo').addClass('margin-left-aberto');
+//     $('.body-session').addClass('margin-left-aberto');
+//     console.log('removi o atributo none do aberto');
+// })
+
+abrirMenu.click(menuAberto);
+
+function menuAberto () {
     fecharMenu.removeClass('display-none');
     abrirMenu.addClass('display-none');
     $('.menu-toponovo').addClass('margin-left-aberto');
     $('.body-session').addClass('margin-left-aberto');
-    console.log('removi o atributo none do aberto');
-})
+    console.log('removi o atributo nome do aberto');
+}
 
 fecharMenu.click(function () {
     $('.sidenav').sidenav('close');
@@ -26,3 +37,4 @@ var collapsibleElem = document.querySelector('.collapsible');
 var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
 var elem = document.querySelectorAll('.sidenav');
 var instance = M.Sidenav.getInstance(elem);
+

@@ -44,11 +44,11 @@ html {
 .sidenav-trigger, .sidenav-close {
     position: absolute;
     margin-top: 400px;
-    padding: 32px 18px;
+    padding: 12px 25px;
     color: #e5e5e6 !important;
-    height: 110px;
+    height: 80px;
     border: solid 20px transparent;
-    border-left: solid 28px #606060;
+    border-left: solid 18px #606060;
     border-right: none;
     cursor: pointer;
 }
@@ -56,12 +56,18 @@ html {
 .sidenav-trigger i{
     margin-left: -45px;
     margin-top: -12px;
+    font-size: 18px;
 }
 
 .sidenav-close i {
     color: white;
     margin-left: -42px;
     margin-top: -12px;
+    font-size: 18px;
+}
+
+.drag-target {
+    z-index: 0 !important;
 }
 
 .sidenav-overlay {
@@ -97,4 +103,37 @@ html {
 
 .margin-left-aberto {
     margin-left: 368px !important;
+}
+
+#menu-voador-close{
+    z-index: 1;
+}
+
+
+
+
+.divContainer {
+    width:300px;
+    float: left;
+    border: 1px solid #CCC;
+    position: relative;
+    overflow:hidden;
+}
+
+.conteudoFixo {
+    position: relative;
+    float:left;
+    background-color:#F6F6F6;
+    border:1px solid #FFF;
+    border-bottom:1px solid #CCC;
+    width:98%;
+    padding-left:2%;
+}
+
+.conteudoNormal{
+    float:left;
+    height: 200px;
+    width:100%;
+    overflow:auto;
+    position:relative;
 }
